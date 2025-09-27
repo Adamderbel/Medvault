@@ -376,14 +376,12 @@ This project was developed with the assistance of **Windsurf IDE** and AI-powere
 
 ### **Enhanced Wallet Integration**
 - **Individual Lace Wallets** - Each doctor and patient should have their own Lace wallet
-- **Multi-Wallet Support** - Support for different wallet providers beyond Lace
 - **Hardware Wallet Integration** - Support for Ledger and other hardware wallets
 
 ### **AI-Powered Features**
 - **Medical Chatbot** - AI assistant to help patients understand their medical records
 - **Doctor Matching** - AI algorithm to match patients with the most suitable doctors based on medical history and specialization
-- **Symptom Analysis** - AI-powered preliminary symptom analysis and recommendations
-- **Treatment Suggestions** - AI recommendations for treatment plans based on medical history
+
 
 ### **Advanced Privacy Features**
 - **Zero-Knowledge Proofs** - Enhanced privacy with ZK-SNARKs for medical data verification
@@ -395,8 +393,7 @@ This project was developed with the assistance of **Windsurf IDE** and AI-powere
 - **Mobile Application** - Native iOS and Android apps
 - **Telemedicine Integration** - Video consultations with integrated medical records
 - **Lab Results Integration** - Direct integration with laboratory systems
-- **Prescription Management** - Digital prescription system with pharmacy integration
-- **Emergency Access** - Emergency medical information access for first responders
+
 
 ---
 
