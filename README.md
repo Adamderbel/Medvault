@@ -8,7 +8,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Midnight](https://img.shields.io/badge/Midnight-Blockchain-purple?style=for-the-badge)
 
-**A privacy-focused healthcare dApp prototype built for hackathons, combining traditional web technologies with blockchain privacy solutions.**
+**A privacy-focused healthcare dApp prototype built for Midnight hackathon, combining traditional web technologies with blockchain privacy solutions.**
 
 
 
