@@ -10,26 +10,9 @@
 
 **A privacy-focused healthcare dApp prototype built for hackathons, combining traditional web technologies with blockchain privacy solutions.**
 
-[🚀 Quick Start](#-quick-start) • [📖 Documentation](#-documentation) • [🏗️ Architecture](#-architecture) • [🔐 Privacy Features](#-privacy-features)
+
 
 </div>
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Technology Stack](#-technology-stack)
-- [Quick Start](#-quick-start)
-- [Architecture](#-architecture)
-- [Privacy & Security](#-privacy--security)
-- [API Documentation](#-api-documentation)
-- [Lace Wallet Integration](#-lace-wallet-integration)
-- [Development](#-development)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -59,13 +42,13 @@ MedVault combines traditional web technologies with blockchain privacy solutions
 ### 👤 **Patient Features**
 - **🔐 Secure Registration** - Sign up with Lace Midnight wallet
 - **📋 Medical Record Upload** - Store encrypted medical data on blockchain
-- **📊 Dashboard** - View and manage the medical records
+- **📊 Dashboard** - Easily view and manage doctor connections, as well as control what health data to share.
 - **🔔 Notifications** - Get notified when doctors request access
 - **👨‍⚕️ Doctor Discovery** - Find and connect with healthcare providers
 
 ### 👨‍⚕️ **Doctor Features**
 - **🏥 Professional Registration** - Verify credentials and join network
-- **🔍 Patient Discovery** - Find patients who've granted access
+- **🔍 Patient Discovery** - Find patients who've granted connection
 - **📋 Access Requests** - Request specific medical fields from patients
 - **📊 Medical Dashboard** - View authorized patient data
 - **🔐 Privacy-Compliant** - Only see data patients explicitly share
@@ -73,9 +56,8 @@ MedVault combines traditional web technologies with blockchain privacy solutions
 ### 🔒 **Privacy & Security**
 - **🌙 Midnight Integration** - Privacy-preserving blockchain storage
 - **🔐 Wallet-Based Encryption** - Data encrypted with patient's private key
-- **🎯 Granular Permissions** - Field-level access control
+- **🎯 Smart Contract** – Use smart contracts to enforce access control.
 - **🛡️ Zero-Knowledge** - Doctors can't see unauthorized data
-- **📝 Audit Trail** - All access logged and transparent
 
 ---
 
@@ -98,7 +80,7 @@ MedVault combines traditional web technologies with blockchain privacy solutions
 - **🛡️ bcrypt** - Password hashing
 
 ### **Blockchain & Privacy**
-- **🌙 Midnight SDK** - Privacy-preserving blockchain 
+- **🌙 Midnight SDK** - Privacy-preserving blockchain (Mock implementation)
 - **🔐 Lace Wallet** - Cardano/Midnight wallet integration
 - **🛡️ End-to-End Encryption** - Patient data protection
 - **📝 Smart Contracts** - Access control and permissions
@@ -108,6 +90,7 @@ MedVault combines traditional web technologies with blockchain privacy solutions
 - **🔧 ESLint** - Code linting
 - **🎨 Prettier** - Code formatting
 - **🧪 Development Scripts** - Automated setup and testing
+- **💻 Windsurf IDE** – AI-powered coding environment that accelerated development and simplified blockchain integration.
 
 ---
 
@@ -234,7 +217,6 @@ For full blockchain functionality:
 - **🔐 Wallet-Based Authentication** - No passwords, only cryptographic signatures
 - **🛡️ JWT Tokens** - Secure API access with expiration
 - **📝 Audit Logging** - All access attempts logged
-- **🔒 HTTPS Enforcement** - Encrypted data transmission
 - **🎯 Principle of Least Privilege** - Minimal data exposure
 
 ### **Privacy Compliance**
@@ -247,15 +229,12 @@ For full blockchain functionality:
 ---
 
 
-
----
-
 ## 🌙 Lace Wallet Integration
 
 ### **Wallet Connection Flow**
 
 1. **Detection**: App detects Lace Midnight wallet extension
-3. **Address Extraction**: App  auto-detect wallet address
+3. **Address Extraction**: App  auto detect and fill wallet address
 
 ### **Supported Operations**
 
@@ -358,7 +337,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## ⚠️ Development Notes
+## ⚠️ Development Notes & Implementation Details
+
+### **Midnight SDK Implementation Strategy**
+
+Due to hackathon time constraints and resource limitations, we implemented a hybrid approach:
+
+#### **✅ Real Midnight Integration:**
+- **Lace Wallet Connection** - Actual Lace wallet integration for authentication
+- **Wallet Address Detection** - Real wallet addresses from connected Lace wallet
+- **Cryptographic Signatures** - Authentic wallet-based authentication flow
+- **Frontend Wallet Services** - Complete Lace wallet integration in React components
+
+#### **🔄 Mock Implementation (Production-Ready Architecture):**
+- **Smart Contracts Service** - Mock implementation with production-ready interfaces
+- **Blockchain Storage** - Mock CID generation (real implementation would store on Midnight network)
+- **Privacy Contracts** - Simulated smart contracts with proper business logic
 
 ### **Lace Wallet Limitation**
 Due to having access to only one Lace wallet during development:
@@ -376,12 +370,10 @@ This project was developed with the assistance of **Windsurf IDE** and AI-powere
 
 ### **Enhanced Wallet Integration**
 - **Individual Lace Wallets** - Each doctor and patient should have their own Lace wallet
-- **Hardware Wallet Integration** - Support for Ledger and other hardware wallets
 
 ### **AI-Powered Features**
 - **Medical Chatbot** - AI assistant to help patients understand their medical records
 - **Doctor Matching** - AI algorithm to match patients with the most suitable doctors based on medical history and specialization
-
 
 ### **Advanced Privacy Features**
 - **Zero-Knowledge Proofs** - Enhanced privacy with ZK-SNARKs for medical data verification
@@ -399,11 +391,12 @@ This project was developed with the assistance of **Windsurf IDE** and AI-powere
 
 ## 🙏 Acknowledgments
 
-- **Windsurf IDE** - AI-powered development environment that accelerated development
+- **Windsurf IDE** - AI-powered development environment 
 - **Midnight Network** - Privacy-preserving blockchain technology
 - **Major League Hacking** - Hackathon host and provider
 - **Lace Wallet Team** - Cardano/Midnight wallet integration
 - **React Community** - Amazing frontend framework
+- **Devpost** – Platform for hackathon submissions and showcasing projects
 - **Node.js Community** - Powerful backend runtime
 
 ---
