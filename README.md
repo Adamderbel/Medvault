@@ -391,13 +391,12 @@ This project was developed with the assistance of **Windsurf IDE** and AI-powere
 
 ## 🙏 Acknowledgments
 
-- **Windsurf IDE** - AI-powered development environment 
 - **Midnight Network** - Privacy-preserving blockchain technology
 - **Major League Hacking** - Hackathon host and provider
-- **Lace Wallet Team** - Cardano/Midnight wallet integration
-- **React Community** - Amazing frontend framework
 - **Devpost** – Platform for hackathon submissions and showcasing projects
-- **Node.js Community** - Powerful backend runtime
+- **Windsurf IDE** - AI-powered development environment 
+
+
 
 ---
 
