@@ -98,7 +98,7 @@ MedVault combines traditional web technologies with blockchain privacy solutions
 - **🛡️ bcrypt** - Password hashing
 
 ### **Blockchain & Privacy**
-- **🌙 Midnight SDK** - Privacy-preserving blockchain (Mock implementation)
+- **🌙 Midnight SDK** - Privacy-preserving blockchain 
 - **🔐 Lace Wallet** - Cardano/Midnight wallet integration
 - **🛡️ End-to-End Encryption** - Patient data protection
 - **📝 Smart Contracts** - Access control and permissions
