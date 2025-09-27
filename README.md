@@ -2,11 +2,6 @@
 
 <div align="center">
 
-![MedVault](https://img.shields.io/badge/MedVault-Healthcare_dApp-blue?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Midnight](https://img.shields.io/badge/Midnight-Blockchain-purple?style=for-the-badge)
 
 **A privacy-focused healthcare dApp prototype built for Midnight hackathon, combining traditional web technologies with blockchain privacy solutions.**
 
@@ -228,32 +223,6 @@ For full blockchain functionality:
 
 ---
 
-
-## 🌙 Lace Wallet Integration
-
-### **Wallet Connection Flow**
-
-1. **Detection**: App detects Lace Midnight wallet extension
-3. **Address Extraction**: App  auto detect and fill wallet address
-
-### **Supported Operations**
-
-- **✅ Wallet Connection** - Connect to Lace Midnight wallet
-- **✅ Address Detection** - Auto-fill wallet address
-- **✅ Challenge Signing** - Cryptographic authentication
-- **🔄 Data Encryption** - Encrypt medical records (mock implementation)
-
-
-
-### **Troubleshooting Lace Connection**
-
-1. **Install Lace Extension**: Download from official Lace website
-2. **Enable Permissions**: Allow extension access to localhost
-3. **Unlock Wallet**: Ensure Lace wallet is unlocked
-4. **Check Network**: Verify you're on Midnight testnet
-
----
-
 ## 🛠️ Development
 
 ### **Project Structure**
@@ -337,32 +306,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## ⚠️ Development Notes & Implementation Details
 
-### **Midnight SDK Implementation Strategy**
+## ⚠️ Development Notes
 
-Due to hackathon time constraints and resource limitations, we implemented a hybrid approach:
+- **Midnight SDK** - Hybrid approach due to time constraints: real Lace wallet integration for patient accounts, mock wallet for doctors, and simulated smart contracts for access control.
+- **Lace Wallet Limitation** - Only one real wallet used; core privacy and smart contract functionality remain intact.
+- **Development Environment** - Built with Windsurf IDE and AI-powered tools, which sped up development and simplified blockchain integration.
 
-#### **✅ Real Midnight Integration:**
-- **Lace Wallet Connection** - Actual Lace wallet integration for authentication
-- **Wallet Address Detection** - Real wallet addresses from connected Lace wallet
-- **Cryptographic Signatures** - Authentic wallet-based authentication flow
-- **Frontend Wallet Services** - Complete Lace wallet integration in React components
-
-#### **🔄 Mock Implementation (Production-Ready Architecture):**
-- **Smart Contracts Service** - Mock implementation with production-ready interfaces
-- **Blockchain Storage** - Mock CID generation (real implementation would store on Midnight network)
-- **Privacy Contracts** - Simulated smart contracts with proper business logic
-
-### **Lace Wallet Limitation**
-Due to having access to only one Lace wallet during development:
-- **Patient accounts** use the real Lace wallet for data encryption and authentication
-- **Doctor accounts** use mock wallet addresses for demonstration purposes
-- Smart contracts and access control work with both real and mock addresses
-- This limitation doesn't affect the core privacy and security architecture
-
-### **Development Environment**
-This project was developed with the assistance of **Windsurf IDE** and AI-powered development tools, which significantly accelerated the development process and helped implement complex blockchain integration features.
 
 ---
 
