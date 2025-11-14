@@ -15,6 +15,11 @@
 
 **MedVault** is a privacy-first healthcare dApp that empowers patients to take complete control of their medical records. Built as a Midnight hackathon prototype, it demonstrates how blockchain technology can solve real-world healthcare privacy challenges while maintaining usability and performance.
 
+**Check out the hackathon project:** [Medvault on Devpost](https://devpost.com/software/medvault-x4i3n2)
+
+
+
+
 ### 🌟 The Problem We Solve
 
 - **Data Ownership**: Patients don't control their medical data
